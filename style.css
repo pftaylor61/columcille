@@ -5,11 +5,13 @@
  Author:       Paul Taylor
  Author URI: http://www.oldcastleweb.com
  Template:     qohelet
- Version:      0.0.1
+ Version:      0.2
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  columcille
+ GitHub Theme URI: https://github.com/pftaylor61/columcille
+ GitHub Branch:    master
 */
 
 #outer_wrapper {
@@ -101,4 +103,54 @@ Footer codes
 
 footer p {
     color:#fff !important;
+}
+
+/*====================================
+Media Query section
+Supplementing media queries in Qohelet
+====================================*/
+
+@media only screen and (max-width: 810px) {
+    #wrapper {
+	width: 100% !important;
+	text-align: left;
+        background-color:#eee;
+        border: none;
+        border-bottom: none;
+        border-radius: 1rem;
+        margin-top: 0;
+    }
+    .wpcf7-form-control {
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    #wrapper {
+	width: 100% !important;
+	text-align: left;
+        background-color:#eee;
+        border: none;
+        border-bottom: none;
+        border-radius: 0;
+        margin-top: 0;
+    }
+    
+    .row {
+        width: 100% !important;
+    }
+    .wpcf7-form-control {
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .clm_previewbox {
+        width:100%;
+        
+        float: left;
+    }
+    .wpcf7-form-control {
+        max-width: 100% !important;
+    }
 }

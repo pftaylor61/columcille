@@ -34,13 +34,13 @@ get_header(); ?>
             ?>
             <div id="clm_preview1" class="clm_previewbox columcille-box">
                
-                <?php echo clm_mini_page_display($clm_preview_num['hp_p1']); ?>
+                <?php echo clm_mini_page_display(2); ?>
             </div>
             <div id="clm_preview2" class="clm_previewbox columcille-box">
                 <?php echo clm_mini_page_display(3); ?>
             </div>
             <div id="clm_preview3" class="clm_previewbox columcille-box">
-                <?php echo clm_mini_page_display(); ?>
+                <?php echo clm_mini_page_display(49); ?>
             </div>
         </div><!-- /#columcille_secondary.clm_previews.row -->
 
