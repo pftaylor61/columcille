@@ -1,7 +1,9 @@
 <?php
 /**
- * Qohelet functions and definitions
+ * Columcille functions and definitions
  *
+ * Columcille is a child theme of Qohelet
+ * 
  * @package Qohelet
  * @since Qohelet 0.0.1
  */
